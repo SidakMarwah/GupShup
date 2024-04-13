@@ -45,17 +45,21 @@ This is a real-time chat application built using the MERN (MongoDB, Express.js, 
    MONGO_URL="mongodb://localhost:27017/GupShup"
    ORIGIN="http://localhost:5173"
    ```
-5. Start the Vite application (frontend):
+5. Create a `.env` file inside the `public` directory with the following contents:
+   ```
+   VITE_APP_HOST="http://localhost:5000"
+   ```
+6. Start the Vite application (frontend):
    ```
    cd ../public
    npm run dev
    ```
-6. Start the backend server:
+7. Start the backend server:
    ```
    cd ../server
    npm start
    ```
-7. Access the application at `http://localhost:5173`.
+8. Access the application at `http://localhost:5173`.
 
 ## Technologies Used
 
